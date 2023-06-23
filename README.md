@@ -12,6 +12,8 @@ Features:
 
 - prepend(value) adds a new node containing value to the start of the list
 
+- appendMultiple(array) adds multiple nodes in sequential order from an array of values
+
 - size() returns the total number of nodes in the list
 
 - head() returns the first node in the list
