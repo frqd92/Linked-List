@@ -3,7 +3,7 @@ Hello. This is my linked lists assignment from The Odin Project.
 I chose to use recursive functions to traverse the nodes as it looks cleaner, but in a real life situation I would probably use loops instead as they require less space (due to the stored calls in the stack when using recursion).
 
 In index.js you can find some tests where the objective is to use the various functions belows to build the following linked list:
-    This is the head -> one -> two -> three -> four -> This is the tail -> null
+    This is the head -> one -> two -> three -> four -> five -> six -> seven -> eight -> This is the tail -> null
 
 
 
