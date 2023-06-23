@@ -100,7 +100,9 @@ export function LinkedList(){
       }
     }
   
-  return Object.assign({}, {append, prepend, size, toString, head, tail, at, pop, contains, find, insertAt, removeAt})
+    function appendMultiple(arr){ for(let val of arr){append(val) } }
+
+  return Object.assign({}, {append, prepend, appendMultiple, size, toString, head, tail, at, pop, contains, find, insertAt, removeAt})
   }
   
   function Node(value=null, next=null){ return { value, next } }
